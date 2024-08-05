@@ -7,7 +7,7 @@ export default function Figura({ vetor, posicao, clicado }) {
     if (vetor[posicao] !== 0) {
       return vetor[posicao] ? "cross" : "circle";
     }
-    return "pencil";
+    return "baidu";
   }
 
   return (
